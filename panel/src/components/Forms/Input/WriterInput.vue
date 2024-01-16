@@ -4,7 +4,7 @@
 		:data-disabled="disabled"
 		:data-empty="isEmpty"
 		:data-placeholder="placeholder"
-		:data-toolbar-inline="Boolean(toolbar.inline)"
+		:data-toolbar-inline="Boolean(toolbar.inline ?? true)"
 		:spellcheck="spellcheck"
 		class="k-writer-input k-writer"
 	>
